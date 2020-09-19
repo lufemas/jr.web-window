@@ -1,0 +1,35 @@
+.jr-window{
+    position: absolute;
+    border: 4px ridge;
+    width: 300px;
+    height: 300px;
+    resize: both;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+}
+
+.jr-window > .win-header{
+    border-bottom: 4px ridge;
+    background-color: #aaa;
+    height: 25px;
+    padding: 2px 2px 0 2px;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.win-btn{
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.jr-window main{
+    background-color: white;
+    width: 100%;
+    height: 88%;
+}
